@@ -1,0 +1,27 @@
+name: security_device
+description: Utility to check the Device is Security or not.
+version: 1.0.0
+homepage: https://github.com/stevenBang/security_device
+repository: https://github.com/stevenBang/security_device
+
+environment:
+  sdk: '>=2.19.3 <3.0.0'
+  flutter: ">=2.5.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# The following section is specific to Flutter packages.
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.security.device.security_device
+        pluginClass: SecurityDevicePlugin
+      ios:
+        pluginClass: SecurityDevicePlugin
