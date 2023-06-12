@@ -1,6 +1,6 @@
 name: security_device
 description: Utility to check the Device is Security or not, Jailbroken, DeveloperMode.
-version: 1.1.0
+version: 1.2.0
 homepage: https://github.com/stevenBang/security_device
 repository: https://github.com/stevenBang/security_device
 

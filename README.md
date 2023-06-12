@@ -22,7 +22,7 @@ In the `pubspec.yaml` of your flutter project, add the following dependency:
 ```yaml
 dependencies:
   ...
-  security_device: ^1.1.0
+  security_device: ^1.2.0
 ```
 
 
